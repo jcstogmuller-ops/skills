@@ -26,6 +26,45 @@ Many skills in this repo are open source (Apache 2.0). We've also included the d
 - [./spec](./spec): The Agent Skills specification
 - [./template](./template): Skill template
 
+## Skills
+
+### Creative & Design
+
+| Skill | Description |
+|-------|-------------|
+| [algorithmic-art](./skills/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use for generative art, flow fields, or particle systems. |
+| [canvas-design](./skills/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. Use when the user asks to create a poster, piece of art, design, or other static piece. |
+| [frontend-design](./skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use when building web components, pages, or applications with polished UI. |
+| [slack-gif-creator](./skills/slack-gif-creator) | Knowledge and utilities for creating animated GIFs optimized for Slack. Use when users request animated GIFs for Slack. |
+| [theme-factory](./skills/theme-factory) | Toolkit for styling artifacts with a theme (slides, docs, HTML landing pages, etc.). Includes 10 pre-set themes and on-the-fly theme generation. |
+| [web-artifacts-builder](./skills/web-artifacts-builder) | Suite of tools for creating elaborate, multi-component HTML artifacts using React, Tailwind CSS, and shadcn/ui. Use for complex artifacts requiring state management or routing. |
+
+### Development & Technical
+
+| Skill | Description |
+|-------|-------------|
+| [claude-api](./skills/claude-api) | Build apps with the Claude API or Anthropic SDK. Triggers when code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk` or when asked to use Claude API or Agent SDK. |
+| [mcp-builder](./skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers in Python (FastMCP) or Node/TypeScript (MCP SDK) to integrate external APIs or services. |
+| [skill-creator](./skills/skill-creator) | Create new skills, modify and improve existing skills, and measure skill performance. Use to create, edit, run evals, or optimize skill descriptions. |
+| [webapp-testing](./skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, capturing screenshots, and viewing browser logs. |
+
+### Enterprise & Communication
+
+| Skill | Description |
+|-------|-------------|
+| [brand-guidelines](./skills/brand-guidelines) | Applies Anthropic's official brand colors and typography to artifacts. Use when brand colors, style guidelines, visual formatting, or company design standards apply. |
+| [doc-coauthoring](./skills/doc-coauthoring) | Structured workflow for co-authoring documentation, proposals, technical specs, and decision docs through iterative refinement. |
+| [internal-comms](./skills/internal-comms) | Helps write internal communications (status reports, leadership updates, newsletters, FAQs, incident reports, project updates) using company-preferred formats. |
+
+### Document Skills
+
+| Skill | Description |
+|-------|-------------|
+| [docx](./skills/docx) | Create, read, edit, or manipulate Word documents (.docx files), including formatting, tables of contents, headings, page numbers, and letterheads. |
+| [pdf](./skills/pdf) | Work with PDF files: read/extract text and tables, combine/split PDFs, rotate pages, add watermarks, fill forms, encrypt/decrypt, extract images, and OCR. |
+| [pptx](./skills/pptx) | Create, read, edit, or manipulate PowerPoint presentations (.pptx files), including slide decks, pitch decks, templates, layouts, and speaker notes. |
+| [xlsx](./skills/xlsx) | Work with spreadsheet files (.xlsx, .xlsm, .csv, .tsv): open, read, edit, create, or convert between tabular formats, including formulas, charts, and data cleaning. |
+
 # Try in Claude Code, Claude.ai, and the API
 
 ## Claude Code
